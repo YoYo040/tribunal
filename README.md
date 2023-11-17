@@ -20,5 +20,7 @@ DB_PASSWORD=password
 php artisan migrate
 ## 10/insertion le data de admin
 php artisan db:seed
-## 11/démarer le projet
+## 11/générate app key
+php artisan key:generate
+## 12/démarer le projet
 php artisan serve
