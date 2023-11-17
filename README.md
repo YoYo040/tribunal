@@ -19,6 +19,6 @@ DB_PASSWORD=password
 ## 9/migration de database
 php artisan migrate
 ## 10/insertion le data de admin
-php arisan db:seed
+php artisan db:seed
 ## 11/démarer le projet
 php artisan serve
